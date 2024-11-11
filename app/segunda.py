@@ -1,7 +1,7 @@
 import flet as ft
 import sqlite3
 from datetime import datetime
-
+#kakaka
 # Función para crear y gestionar la conexión de la base de datos
 def get_db_connection():
     conn = sqlite3.connect("ventas.db", check_same_thread=False)
